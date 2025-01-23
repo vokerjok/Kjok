@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aman, Tinggal Ngopi, Mantap',
+      title: ' KAJOKO TAMVAN',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
@@ -54,12 +54,12 @@ class _AutoRefreshPageState extends State<AutoRefreshPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rerun !!!! (${_getCurrentDateInUTC7()}) Aman???'),
+        title: Text('KA JOKO TAMVAN'),
         backgroundColor: Colors.transparent,
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.red, Colors.white],
+              colors: [Colors.blue, Colors.white],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
@@ -71,18 +71,18 @@ class _AutoRefreshPageState extends State<AutoRefreshPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Welcome Back!',
-              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.blue),
+              'JOKO',
+              style: TextStyle(fontSize: 90, fontWeight: FontWeight.bold, color: Colors.purple),
             ),
             const SizedBox(height: 20),
             const Text(
-              'Ngopi..Dulu.. ☕️',
-              style: TextStyle(fontSize: 20, color: Colors.black),
+              'KAJOKO BAIK',
+              style: TextStyle(fontSize: 40, color: Colors.black),
             ),
             const SizedBox(height: 20),
             const Text(
-              '😎😎Aman😎😎',
-              style: TextStyle(fontSize: 20, color: Colors.green),
+              '🐢🐢🐢  kajoko 🐢🐢🐢',
+              style: TextStyle(fontSize: 64, color: Colors.green),
             ),
           ],
         ),
