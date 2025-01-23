@@ -54,7 +54,7 @@ class _AutoRefreshPageState extends State<AutoRefreshPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('KA JOKO (${_getCurrentDateInUTC7()}) TAMVAN '),
+        title: Text('Rerun !!!! (${_getCurrentDateInUTC7()}) Aman???'),
         backgroundColor: Colors.transparent,
         flexibleSpace: Container(
           decoration: const BoxDecoration(
@@ -71,18 +71,18 @@ class _AutoRefreshPageState extends State<AutoRefreshPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              '😎 KA JOKO 😎',
-              style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold, color: Colors.green),
+              'Welcome Back!',
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.blue),
             ),
             const SizedBox(height: 20),
             const Text(
-              'JOKO BAIK HATI ',
-              style: TextStyle(fontSize: 35, color: Colors.purple),
+              'Ngopi..Dulu.. ☕️',
+              style: TextStyle(fontSize: 20, color: Colors.black),
             ),
             const SizedBox(height: 20),
             const Text(
-              '🪿🪿🪿🪿 KJOKO 🪿🪿🪿🪿',
-              style: TextStyle(fontSize: 50, color: Colors.black),
+              '😎😎Aman😎😎',
+              style: TextStyle(fontSize: 20, color: Colors.green),
             ),
           ],
         ),
